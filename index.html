@@ -4,29 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akshay Kumar - Backend Developer Portfolio</title>
-    <!-- Load Tailwind CSS for utility-first styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom Font Import */
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #0d1117; /* Dark background inspired by GitHub/VS Code themes */
-            color: #c9d1d9; /* Light gray text */
+            background-color: #0d1117;
+            color: #c9d1d9;
         }
-        /* Custom utility for link hover effect */
         .project-link:hover {
             text-decoration: underline;
-            color: #58a6ff; /* A bright blue for interaction */
+            color: #58a6ff;
         }
     </style>
 </head>
 <body class="min-h-screen p-4 sm:p-8">
-
-    <!-- Container for responsiveness and centering -->
+    
     <div class="max-w-4xl mx-auto space-y-12">
 
-        <!-- HEADER / HERO SECTION -->
         <header class="text-center py-12 border-b border-gray-700">
             <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white mb-2">
                 Akshay Kumar
@@ -37,7 +32,7 @@
             
         </header>
 
-        <!-- ABOUT ME SECTION -->
+
         <section id="about" class="bg-gray-800 p-6 sm:p-8 rounded-xl shadow-lg border border-gray-700">
             <h2 class="text-3xl font-bold mb-4 flex items-center text-white">
                 <span class="mr-2">👋</span> About Me
@@ -50,7 +45,7 @@
                 🛠️ Core Skills
             </h3>
             <div class="flex flex-wrap gap-2">
-                <!-- Skill Tags (using Tailwind bg-opacity for depth) -->
+         
                 <span class="px-3 py-1 bg-blue-600 bg-opacity-30 text-blue-300 text-sm font-medium rounded-full">Python</span>
                 <span class="px-3 py-1 bg-green-600 bg-opacity-30 text-green-300 text-sm font-medium rounded-full">FastAPI</span>
                 <span class="px-3 py-1 bg-indigo-600 bg-opacity-30 text-indigo-300 text-sm font-medium rounded-full">SQL & PostgreSQL</span>
@@ -60,13 +55,13 @@
             </div>
         </section>
 
-        <!-- PROJECTS SECTION -->
+
         <section id="projects" class="space-y-6">
             <h2 class="text-3xl font-bold text-white">
                 🔗 My Key Projects
             </h2>
 
-            <!-- Project Card: BeHabby -->
+      
             <div class="project-card bg-gray-900 p-6 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 border border-green-500/50">
                 <h3 class="text-2xl font-semibold mb-2 text-green-400">
                     BeHabby: Habit Tracking API
@@ -79,12 +74,12 @@
                 </p>
 
                 <div class="flex space-x-4">
-                    <!-- Live App Link Button -->
+                  
                     <a href="https://behabby.onrender.com/" target="_blank" class="project-link inline-flex items-center justify-center px-4 py-2 bg-green-600 hover:bg-green-700 text-white text-sm font-medium rounded-lg transition duration-150 shadow-md">
                         <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                         View Live App
                     </a>
-                    <!-- GitHub Code Link Button -->
+                   
                     <a href="https://github.com/akshay-moolath/BeHabby" target="_blank" class="project-link inline-flex items-center justify-center px-4 py-2 bg-gray-700 hover:bg-gray-600 text-gray-200 text-sm font-medium rounded-lg transition duration-150 shadow-md">
                         <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.016c0 4.414 2.864 8.15 6.837 9.47.5.092.682-.213.682-.472 0-.232-.008-.848-.013-1.656-2.784.604-3.37-1.341-3.37-1.341-.454-1.156-1.11-1.464-1.11-1.464-.908-.622.068-.609.068-.609 1.004.07 1.53.518 1.53.518.89 1.527 2.342 1.087 2.91.832.091-.645.349-1.087.635-1.338-2.22-.254-4.555-1.11-4.555-4.954 0-1.091.39-1.984 1.028-2.68-.104-.254-.447-1.27.098-2.646 0 0 .84-.268 2.753 1.024 1.637-.453 3.39-.453 5.027 0 1.912-1.292 2.752-1.024 2.752-1.024.545 1.376.202 2.392.098 2.646.64.696 1.028 1.589 1.028 2.68 0 3.85-2.337 4.697-4.563 4.947.359.314.678.924.678 1.871 0 1.35.012 2.433.012 2.76 0 .259.18.567.688.471C17.14 18.166 20 14.43 20 10.016 20 4.484 15.522 0 10 0z" clip-rule="evenodd"></path></svg>
                         GitHub Code
@@ -92,13 +87,13 @@
                 </div>
             </div>
             
-            <!-- Add more project cards here if you have them! -->
+            
             <div class="p-4 text-center text-gray-500 italic">
                 More projects coming soon!
             </div>
         </section>
 
-        <!-- CONTACT SECTION -->
+        
         <section id="contact" class="pt-8 border-t border-gray-700">
             <h2 class="text-3xl font-bold mb-4 text-white">
                 📬 Get In Touch
@@ -108,19 +103,19 @@
             </p>
 
             <div class="flex flex-col sm:flex-row gap-4">
-                <!-- Email Link -->
+             
                 <a href="mailto:blackspringworld@gmail.com" class="flex-1 text-center py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-lg transition duration-150">
                     Email Me
                 </a>
                 
-                <!-- LinkedIn Link (Example) -->
+               
                 <a href="https://linkedin.com/in/akshaymoolath" target="_blank" class="flex-1 text-center py-3 px-6 bg-gray-700 hover:bg-gray-600 text-white font-semibold rounded-lg shadow-lg transition duration-150">
                     Connect on LinkedIn
                 </a>
             </div>
         </section>
 
-        <!-- FOOTER -->
+     
         <footer class="text-center pt-8 text-gray-500 text-sm">
             <p>&copy; 2025 Akshay Kumar. Built with Tailwind CSS.</p>
         </footer>
